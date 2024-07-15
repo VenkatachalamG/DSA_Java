@@ -1,7 +1,7 @@
 public class ceilCharacter {
     public static void main(String[] args) {
-        char[] arr = {'c','e','f','g'};
-        char target = 'd';
+        char[] arr = {'c','e','f','j'};
+        char target = 'g';
         char ans = orderAgnosticBinary(arr, target);
         System.out.println(ans);
     }
