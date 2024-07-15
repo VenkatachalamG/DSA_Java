@@ -14,7 +14,7 @@ public class ceilCharacter {
             if (target < arr[mid]){
                 end = mid - 1;
             }
-            else if {
+            else {
                 start = mid + 1;
             }
 
