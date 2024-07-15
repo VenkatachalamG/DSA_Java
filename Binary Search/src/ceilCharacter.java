@@ -11,30 +11,14 @@ public class ceilCharacter {
 
         while (start <= end){
             int mid = start + (end - start) / 2;
-
-            if (target == arr[mid]){
-                return arr[mid + 1];
-            }
-
-//            if(arr[start] < arr[end]){
             if (target < arr[mid]){
                 end = mid - 1;
             }
-            else if (target > arr[mid]){
+            else if {
                 start = mid + 1;
             }
-//            }
 
-//            else {
-//                if (target > arr[mid]){
-//                    end = mid - 1;
-//                }
-//                else if (target < arr[mid]){
-//                    start = mid + 1;
-//                }
-//            }
         }
-//        System.out.println(start);
-        return arr[start];
+        return arr[start % arr.length];
     }
 }
