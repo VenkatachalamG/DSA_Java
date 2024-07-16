@@ -1,6 +1,6 @@
 public class findMountainArray {
     public static void main(String[] args) {
-        int[] arr = {1, 4, 6, 8, 10, 12, 13, 11, 9, 5, 3, 1, 0};
+        int[] arr = {1, 4, 6, 8, 10, 12, 13, 11, 9, 5, 3,2, 1, 0};
         int target = 11;
         int ans = search(arr, target);
         System.out.println("Index :"+ans);
