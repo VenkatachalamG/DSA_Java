@@ -1,6 +1,6 @@
 public class simpleBSearch {
     public static void main(String[] args) {
-        int[] arr = {2,5,6,8,10,13,16,19,24,26,34,46};
+        int[] arr = {12,13,7,4,3,2,1};
         int target = 13;
         int indexOfBinary = binarySearchMethod(arr, target);
         System.out.println("Element present at position "+indexOfBinary);
