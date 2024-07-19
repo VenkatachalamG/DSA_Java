@@ -1,3 +1,5 @@
+package OneDArray;
+
 import java.util.Arrays;
 
 public class firstAndLast {

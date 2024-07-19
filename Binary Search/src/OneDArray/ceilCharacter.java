@@ -1,3 +1,5 @@
+package OneDArray;
+
 public class ceilCharacter {
     public static void main(String[] args) {
         char[] arr = {'c','e','f','j'};

@@ -1,3 +1,5 @@
+package OneDArray;
+
 public class simpleBSearch {
     public static void main(String[] args) {
         int[] arr = {12,13,7,4,3,2,1,2};

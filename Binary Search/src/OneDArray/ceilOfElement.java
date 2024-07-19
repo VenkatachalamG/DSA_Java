@@ -1,4 +1,4 @@
-import com.sun.security.jgss.GSSUtil;
+package OneDArray;
 
 public class ceilOfElement {
     public static void main(String[] args) {

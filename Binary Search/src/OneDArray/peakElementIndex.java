@@ -1,3 +1,5 @@
+package OneDArray;
+
 public class peakElementIndex {
     public static void main(String[] args) {
         int[] arr = {-3, -1, 0 ,4, 6, 8, 9, 4, 3, 1,0};
