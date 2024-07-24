@@ -1,7 +1,6 @@
 package Arrays;
 import java.util.Arrays;
 
-import static java.lang.reflect.Array.set;
 
 public class thirdMax {
     public static void main(String[] args) {
